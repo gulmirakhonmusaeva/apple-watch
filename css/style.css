@@ -1,0 +1,83 @@
+*, 
+*:focus {
+    box-sizing: border-box;
+  }
+  
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+  }
+  
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family:'Roboto', "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    background: #fff;
+    color: #4a4b4c;
+  }
+  
+img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 102px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+  }
+
+.logo-text {
+    text-align: center;
+    width: 423px;
+    height: 352px;
+}
+
+.logo {
+    object-fit: cover;
+    left: 21.81%;
+    right: 66.82%;
+    top: 16.72%;
+    bottom: 56.15%;
+}
+.logo-img {
+    width: 118px;
+    height: 159px;
+    color: #333;
+}
+.text {
+    margin: 0;
+    margin-top: 41px;
+    margin-bottom: 100px;
+    font-size: 140px;
+    line-height: 160px;
+    object-fit: cover;
+    font-weight: bold;
+    text-align: center;
+    color:#000;
+}
+
+.text span {
+    color:rgb(252, 109, 109);
+}
+.apple-watch {
+    width: 588px;
+    height: 554px;
+}
+.apple-watch-img {
+    object-fit: fill;
+    width: inherit;
+    height: inherit;
+}
